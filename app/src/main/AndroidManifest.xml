@@ -9,13 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FrutiAppJuanGarcia">
-        <activity android:name=".MainActivity2_Nivel6"></activity>
-        <activity android:name=".MainActivity2_Nivel5" />
-        <activity android:name=".MainActivity2_Nivel4" />
-        <activity android:name=".MainActivity2_Nivel3" />
-        <activity android:name=".MainActivity2_Nivel2" />
-        <activity android:name=".MainActivity2_Nivel1" />
-        <activity android:name=".MainActivity">
+
+
+        <activity android:name=".MainActivity2_Nivel6"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".MainActivity2_Nivel5"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity2_Nivel4"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity2_Nivel3"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity2_Nivel2"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity2_Nivel1"
+            android:screenOrientation="portrait"/>
+
+
+
+        <activity  android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
