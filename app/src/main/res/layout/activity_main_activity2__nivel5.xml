@@ -60,15 +60,15 @@
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
         android:layout_toEndOf="@+id/textView_Manzanas"
         android:layout_toRightOf="@+id/textView_Manzanas"
         android:contentDescription="@string/app_name"
         app:layout_constraintStart_toEndOf="@+id/textView_Manzanas"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tresvidas" />
+        app:srcCompat="@drawable/vida_3" />
 
     <ImageView
         android:id="@+id/imageViewNumUno"

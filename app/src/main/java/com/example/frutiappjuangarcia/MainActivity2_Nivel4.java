@@ -50,11 +50,11 @@ public class MainActivity2_Nivel4 extends AppCompatActivity {
         string_vidas = getIntent().getStringExtra("vidas");
         vidas = Integer.parseInt(string_vidas);
         if(vidas == 3){
-            iv_vidas.setImageResource(R.drawable.tresvidas);
+            iv_vidas.setImageResource(R.drawable.vida_3);
         } if(vidas == 2){
-            iv_vidas.setImageResource(R.drawable.dosvidas);
+            iv_vidas.setImageResource(R.drawable.vida_2);
         } if(vidas == 1){
-            iv_vidas.setImageResource(R.drawable.unavida);
+            iv_vidas.setImageResource(R.drawable.vida_1);
         }
 
 
@@ -92,18 +92,18 @@ public class MainActivity2_Nivel4 extends AppCompatActivity {
 
                 switch (vidas) {
                     case 3:
-                        iv_vidas.setImageResource(R.drawable.tresvidas);
+                        iv_vidas.setImageResource(R.drawable.vida_3);
                         break;
                     case 2:
-                        Toast.makeText(this, "Te quedan 2 manzanas", Toast.LENGTH_SHORT).show();
-                        iv_vidas.setImageResource(R.drawable.dosvidas);
+                        Toast.makeText(this, "Te quedan 2 Vidas", Toast.LENGTH_SHORT).show();
+                        iv_vidas.setImageResource(R.drawable.vida_2);
                         break;
                     case 1:
-                        Toast.makeText(this, "Te queda 1 manzanas", Toast.LENGTH_SHORT).show();
-                        iv_vidas.setImageResource(R.drawable.unavida);
+                        Toast.makeText(this, "Te queda 1 Vida", Toast.LENGTH_SHORT).show();
+                        iv_vidas.setImageResource(R.drawable.vida_1);
                         break;
                     case 0:
-                        Toast.makeText(this, "Has perdido todas tus manzanas", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Has perdido todas tus Vidas", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(this,MainActivity.class);
                         startActivity(intent);
                         finish();
